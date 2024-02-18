@@ -3,8 +3,7 @@
         "title": "Nilton Paes - Desenvolvedor full-stack"
     },
     "ui": {
-        "langselection": "Language Selection",
-        "chooselang": "Change the language:"
+        "langselection": "Seleção de idioma: "
     },
     "page1": {
         "section1": {

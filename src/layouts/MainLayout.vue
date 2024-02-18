@@ -5,7 +5,7 @@
 			<!-- language section -->
 			<div class="q-px-sm bg-grey-1 text-body2 row justify-end items-center" style="height: 28px">
 				<q-separator aria-hidden="true" class="q-mx-md" vertical inset></q-separator>
-				<span class="q-mr-sm text-primary" v-html="$t('ui.chooselang')"></span>
+				<span class="q-mr-sm text-primary" v-html="$t('ui.langselection')"></span>
 				<!-- <a class="text-link q-mr-sm text-primary" href="#" @click.prevent="openLanguageDialog = true;" v-html="locale.toUpperCase()"></a> -->
 
 
@@ -26,7 +26,7 @@
 		<q-dialog v-model="openLanguageDialog" persistent transition-show="scale" transition-hide="scale">
 			<q-card class="bg-grey-1" style="width: 800px;">
 				<q-card-section class="q-pa-lg">
-					<h3 class="Citi-Sans-Text-Bold" v-html="t('ui.langselection')"></h3>
+					<h3 v-html="t('ui.langselection')"></h3>
 				</q-card-section>
 
 				<q-card-section class="q-px-lg q-pt-none q-pb-lg">
