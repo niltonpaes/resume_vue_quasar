@@ -1,0 +1,202 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+
+
+//-------------------------------------------------------------------------------------
+// Colors
+//-------------------------------------------------------------------------------------
+$primary   : #55565b;
+$secondary : #3f51b5;
+$accent    : #8E319C;
+
+$positive  : #388A42;
+$negative  : #FF3C28;
+$info      : #916024;
+$warning   : #FAB728;
+
+$orange: #FF5C0B;
+$purple: #58225A;
+$purple-1: #871A4E;
+$pink: #D71671;
+
+$grey: #F0F5F7; 
+$grey-1: #E6EBED;
+$grey-2: #707070;
+$grey-3: #F7FAFB;
+$grey-4: #D3DADD;
+$grey-5: #A4ACAF;
+
+
+
+
+//-------------------------------------------------------------------------------------
+// Max width at which point
+// current size ends
+//-------------------------------------------------------------------------------------
+// $breakpoint-xs: 599px !default;
+// $breakpoint-sm: 1023px !default;
+// $breakpoint-md: 1439px !default;
+// $breakpoint-lg: 1919px !default;
+$breakpoint-xs: 575px !default;
+$breakpoint-sm: 767px !default;
+$breakpoint-md: 991px !default;
+$breakpoint-lg: 1199px !default;
+
+
+
+//-------------------------------------------------------------------------------------
+// Space
+//-------------------------------------------------------------------------------------
+$space-base   : 16px !default;
+$space-x-base : $space-base !default;
+$space-y-base : $space-base !default;
+
+$space-none : (x: 0, y: 0) !default;
+$space-xs   : (x: ($space-x-base * .25), y: ($space-y-base * .25)) !default;
+$space-sm   : (x: ($space-x-base * .5), y: ($space-y-base * .5)) !default;
+$space-md   : (x: $space-x-base, y: $space-y-base) !default;
+$space-lg   : (x: ($space-x-base * 1.5), y: ($space-y-base * 1.5)) !default;
+$space-xl   : (x: ($space-x-base * 3), y: ($space-y-base * 3)) !default;
+$space-xxl   : (x: ($space-x-base * 4.5), y: ($space-y-base * 4.5)) !default;
+$space-xxxl   : (x: ($space-x-base * 16), y: ($space-y-base * 16)) !default;
+
+$spaces: ('none': $space-none, 'xs': $space-xs, 'sm': $space-sm, 'md': $space-md, 'lg': $space-lg, 'xl': $space-xl, 'xxl': $space-xxl, 'xxxl': $space-xxxl) !default;
+
+
+
+//-------------------------------------------------------------------------------------
+// Font Size
+//-------------------------------------------------------------------------------------
+// regular font size
+$body-font-size : 19px !default;
+$body-line-height : 1.2631rem !default;  // +/- 24px
+
+
+
+//-------------------------------------------------------------------------------------
+// Typography
+//-------------------------------------------------------------------------------------
+// +/- 42px
+$h1:        (size: 2.2105rem, line-height: 2.6526rem, letter-spacing: normal, weight: normal) ;
+$h1-small:  (size: 1.6rem, line-height: 1.8rem, letter-spacing: normal, weight: normal) ;
+$h1-medium: (size: 1.8rem, line-height: 2.1rem, letter-spacing: normal, weight: normal) ;
+// +/- 37px
+$h2:        (size: 1.9473rem, line-height: 2.3368rem, letter-spacing: normal, weight: normal) ;
+$h2-small:  (size: 1.4rem, line-height: 1.8rem, letter-spacing: normal, weight: normal) ;
+$h2-medium: (size: 1.6rem, line-height: 2rem, letter-spacing: normal, weight: normal) ;
+// +/- 30px
+$h3:        (size: 1.5789rem, line-height: 1.8941rem, letter-spacing: normal, weight: normal) ;
+$h3-small:  (size: 1rem, line-height: 1.3rem, letter-spacing: normal, weight: normal) ;
+$h3-medium: (size: 1.2rem, line-height: 1.5rem, letter-spacing: normal, weight: normal) ;
+// +/- 24px old h3
+$h4:        (size: 1.2631rem, line-height: 1.6842rem, letter-spacing: normal, weight: normal) ;
+$h4-small:  (size: 1rem, line-height: 1.3rem, letter-spacing: normal, weight: normal) ;
+$h4-medium: (size: 1.2rem, line-height: 1.5rem, letter-spacing: normal, weight: normal) ;
+
+// same size as the body but with a taller line-height / I found different line-heights thoughtout the course = +/- 28px
+$body1:     (size: 1rem, line-height: 1.4736rem, letter-spacing: normal, weight: normal) !default;
+// fixed in pixels because it's used in the menu only
+$body2:     (size: 14.67px, line-height: 21px, letter-spacing: normal, weight: normal) !default;
+
+$typography-font-family         : "Roboto", "Arial", "Helvetica", "sans-serif" !default;
+
+@media (max-width: $breakpoint-sm) {
+    h1 {
+        font-size: map-get($h1-small, size);
+        line-height: map-get($h1-small, line-height);
+        letter-spacing: map-get($h1-small, letter-spacing);
+        font-weight: map-get($h1-small, weight);
+    }
+    h2 {
+        font-size: map-get($h2-small, size);
+        line-height: map-get($h2-small, line-height);
+        letter-spacing: map-get($h2-small, letter-spacing);
+        font-weight: map-get($h2-small, weight);
+    }
+    h3 {
+        font-size: map-get($h3-small, size);
+        line-height: map-get($h3-small, line-height);
+        letter-spacing: map-get($h3-small, letter-spacing);
+        font-weight: map-get($h3-small, weight);
+    }
+    h4 {
+        font-size: map-get($h4-small, size);
+        line-height: map-get($h4-small, line-height);
+        letter-spacing: map-get($h4-small, letter-spacing);
+        font-weight: map-get($h4-small, weight);
+    }
+}
+
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+    h1 {
+        font-size: map-get($h1-medium, size);
+        line-height: map-get($h1-medium, line-height);
+        letter-spacing: map-get($h1-medium, letter-spacing);
+        font-weight: map-get($h1-medium, weight);
+    }
+    h2 {
+        font-size: map-get($h2-medium, size);
+        line-height: map-get($h2-medium, line-height);
+        letter-spacing: map-get($h2-medium, letter-spacing);
+        font-weight: map-get($h2-medium, weight);
+    }
+    h3 {
+        font-size: map-get($h3-medium, size);
+        line-height: map-get($h3-medium, line-height);
+        letter-spacing: map-get($h3-medium, letter-spacing);
+        font-weight: map-get($h3-medium, weight);
+    }
+    h4 {
+        font-size: map-get($h4-medium, size);
+        line-height: map-get($h4-medium, line-height);
+        letter-spacing: map-get($h4-medium, letter-spacing);
+        font-weight: map-get($h4-medium, weight);
+    }
+}
+
+
+
+//-------------------------------------------------------------------------------------
+// Top menu min-height - q-toolbar
+$toolbar-min-height             : 70px !default;
+//-------------------------------------------------------------------------------------
+
+
+
+//-------------------------------------------------------------------------------------
+// Button Font Size
+$button-font-size               : 19px !default;
+//-------------------------------------------------------------------------------------
+
+
+
+//-------------------------------------------------------------------------------------
+// Button line-height 
+// $button-line-height             : 1.3em !default;
+//-------------------------------------------------------------------------------------
+
+
+
+//-------------------------------------------------------------------------------------
+// genereic border - used on rounded-borders
+$generic-border-radius          : 19px !default;
+//-------------------------------------------------------------------------------------
+
+
+
+// animations
+$animation-delay: 0.3s;
+$animation-area: 100px;
+$animation-duration: 0.6s;

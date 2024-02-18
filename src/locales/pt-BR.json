@@ -1,0 +1,367 @@
+{
+    "manifest": {
+        "title": "Nilton Paes - Desenvolvedor full-stack"
+    },
+    "ui": {
+        "langselection": "Language Selection",
+        "chooselang": "Change the language:"
+    },
+    "page1": {
+        "section1": {
+            "title1": "<strong>Nilton Paes</strong>",
+            "list1": [
+                {
+                    "icon": "fa-solid fa-briefcase",
+                    "text": "Desenvolvedor full-stack com mais de 15 anos de experiência na área de TI."
+                },
+                {
+                    "icon": "fa-solid fa-home",
+                    "text": "North York/Toronto, ON"
+                },
+                {
+                    "icon": "fa-solid fa-envelope",
+                    "text": "nilton.ao.paes@gmail.com"
+                },
+                {
+                    "icon": "fa-solid fa-phone",
+                    "text": "416-575-9387"
+                }
+            ]
+        },
+        "section2": {
+            "title1": "<strong>Destaque de Habilidades</strong>",
+            "text1": "anos de experiência",
+
+            "subtitle1": "Bando de dados",
+            "list1": [
+                {
+                    "title": "T-SQL",
+                    "years": "10+ years",
+                    "value": 1
+                },
+                {
+                    "title": "PL/SQL",
+                    "years": "10+ years",
+                    "value": 1
+                },
+                {
+                    "title": "MS-SQL Server Admin",
+                    "years": "6 years",
+                    "value": 0.6
+                },
+                {
+                    "title": "Oracle Database Admin",
+                    "years": "2 years",
+                    "value": 0.2
+                },
+                {
+                    "title": "SSIS, SSRS",
+                    "years": "5 years",
+                    "value": 0.5
+                },
+                {
+                    "title": "SSAS",
+                    "years": "1 year",
+                    "value": 0.1
+                },
+                {
+                    "title": "ETL / Data Warehouse",
+                    "years": "6 years",
+                    "value": 0.6
+                },
+                {
+                    "title": "MySQL",
+                    "years": "6 years",
+                    "value": 0.6
+                }
+            ],
+
+            "subtitle2": "Desenvolvimento de Aplicações",
+            "list2": [
+                {
+                    "title": "PHP",
+                    "years": "6 years",
+                    "value": 0.6
+                },
+                {
+                    "title": "Laravel",
+                    "years": "6 years",
+                    "value": 0.6
+                },
+                {
+                    "title": "HTML/CSS",
+                    "years": "6 years",
+                    "value": 0.6
+                },
+                {
+                    "title": "Vue.js",
+                    "years": "6 years",
+                    "value": 0.6
+                },
+                {
+                    "title": "Quasar framework",
+                    "years": "1 year",
+                    "value": 0.1
+                },
+                {
+                    "title": "SCORM/LMS",
+                    "years": "4 years",
+                    "value": 0.4
+                },
+                {
+                    "title": "JavaScript",
+                    "years": "6 years",
+                    "value": 0.6
+                },
+                {
+                    "title": "Bootstrap",
+                    "years": "6 years",
+                    "value": 0.6
+                },
+                {
+                    "title": "jQuery",
+                    "years": "2 years",
+                    "value": 0.2
+                },
+                {
+                    "title": "Ajax",
+                    "years": "7 years",
+                    "value": 0.7
+                },
+                {
+                    "title": "XML/XSLT/DTD/XSD and Json",
+                    "years": "7 years",
+                    "value": 0.7
+                },
+                {
+                    "title": "AI - ChatGTP API",
+                    "years": "1 year",
+                    "value": 0.1
+                }
+            ],
+            "subtitle3": "Outros",
+            "list3": [
+                "Tableau",
+                "Oracle BI",
+                "Oracle Forms",
+                "Hadoop",
+                "Hive",
+                "HBase",
+                "R",
+                "Linux",
+                "Rest API",
+                "VBA",
+                "Asp Net",
+                "C#",
+                "Java",
+                "MS Project",
+                "GitHub",
+                "Agile",
+                "Visual Fox",
+                "Visual Basic"
+            ]
+        },
+        "section3": {
+            "title1": "Certificações",
+            "text1": "Microsoft Certified Professional - Querying Microsoft SQL Server 2012.",
+            "text2": "Certification Number:",
+            "text3": "F824-1702",
+            "text4": "Oct 2016"
+        },
+
+        "section4": {
+            "title1": "<strong>Experiência Profissional</strong>",
+            "list1": [
+                {
+                    "title1": "Desenvolvedor full-stack",
+                    "title2": "<strong>Tuesday Afternoon Media (TAM), Toronto, ON</strong>",
+                    "text1": "Setembro de 2019 - Presente",
+                    "list1": [
+                        "Responsabilidades incluem:",
+                        [
+                            "Desenvolvimento de Soluções de Aprendizagem e Treinamentos Baseados na Web utilizando Vue.js, Quasar, HTML, CSS, JavaScript, Bootstrap e SCORM/LMS. Concluí com sucesso mais de 50 projetos para empresas renomadas como Citi, TD, Scotia, Apple, Loblaws, entre outras.",
+                            "Desenvolvimento de API de backend usando PHP/Laravel e MySQL.",
+                            "Design e implementação de painéis e relatórios usando PHP, Laravel e Tableau."
+                        ]
+                    ]
+                },
+                {
+                    "title1": "Desenvolvedor de Banco de Dados e Desenvolvedor PHP",
+                    "title2": "<strong>Destination CEO (Capstone Project at Humber), Toronto, ON</strong>",
+                    "text1": "Jan 2019 - Abr 2019",
+                    "list1": [
+                        "Colaborei no projeto 'With Gratitude', uma plataforma de leilão online, projetando o banco de dados com MySQL e Oracle Data Modeler, e contribui para o desenvolvimento do site usando PHP e Laravel. Reconhecido na EXPO do Projeto de Conclusão de Curso de TIC da Humber (18 de abril de 2019)."
+                    ]
+                },
+                {
+                    "title1": "Desenvolvedor de Banco de Dados e Desenvolvedor de Aplicações",
+                    "title2": "<strong>Itaú Unibanco - Banco, São Paulo, Brasil</strong>",
+                    "text1": "Out 2000 - Mai 2016",
+                    "list1": [
+                        "Atuei no departamento de Manutenção da divisão de Internet, principalmente como desenvolvedor web. Minhas responsabilidades incluíam desenvolver e manter até 10 aplicações de intranet e 8 websites na internet, destacando o Portal Web Principal e o website de Internet Banking.",
+                        "Colaborei com a equipe de Sistemas de Informação Gerencial (MIS) no departamento de Gestão de Projetos de TI Terceirizados, focando no desenvolvimento de bancos de dados e análise de dados. Minhas tarefas incluíam desenvolver e manter processos ETL, bancos de dados, data warehouses e visualizações de dados."
+                    ]
+                },
+                {
+                    "title1": "Desenvolvedor de Banco de Dados e Desenvolvedor de Aplicações",
+                    "title2": "<strong>Projeto de TI - Consultoria de TI, São Paulo, Brasil</strong>",
+                    "text1": "Jan 1996 - Dez 1999",
+                    "list1": [
+                        "Desenvolvi e mantive a aplicação de gerenciamento de vendas e controle de inventário para uma editora (Cia das Letras), utilizando SQL (T-SQL), DTS/SSIS e Visual Basic.",
+                        "Desenvolvi e mantive o Relatório de Inspeção e Painel de Controle de pneus de paisagismo Goodyear, utilizando SQL (T-SQL), DTS/SSIS e Visual FoxPro."
+                    ]
+                },
+                {
+                    "title1": "Programador de Software",
+                    "title2": "<strong>Brasilassist - Empresa de Call Center, São Paulo, Brasil</strong>",
+                    "text1": "Jan 1995 - Dez 1995",
+                    "list1": [
+                        "Desenvolvi e mantive a aplicação de Call Center utilizando SQL (T-SQL) e Visual FoxPro."
+                    ]
+                },
+                {
+                    "title1": "Programador de Software",
+                    "title2": "<strong>Finasa - Banco, São Paulo, Brasil</strong>",
+                    "text1": "Jan 1994 - Dez 1994",
+                    "list1": [
+                        "Desenvolvi e mantive a primeira aplicação de Home Banking do banco FINASA utilizando Visual Basic."
+                    ]
+                }
+            ]
+        },
+
+        "section5": {
+            "title1": "Formação Acadêmica",
+            "list1": [
+                {
+                    "title1": "Humber College, Toronto, ON",
+                    "title2": "<strong>Information Technology Solutions Program, Postgraduate</strong>",
+                    "text1": "Sep 2017 - Apr 2019 "
+                },
+                {
+                    "title1": "PUC - Pontificia Universidade Catolica University, Sao Paulo, Brazil",
+                    "title2": "<strong>Computer Science, Bachelor’s degree</strong>",
+                    "text1": "1992 - 1996"
+                }
+            ]
+        },
+
+        "section6": {
+            "title1": "Portfolio - GitHub and Live Aplications",
+            "btnGit": "GitHub",
+            "btnLive": "Live",
+            "list1": [
+                {
+                    "title1": "Laragigs",
+                    "list1": [
+                        "Este é um site desenvolvido usando PHP/Laravel, onde os usuários podem se cadastrar, atualizar e buscar por serviços. Ele utiliza as características padrão de autenticação e autorização do Laravel, o que significa que os usuários precisam fazer login para poder publicar um serviço.",
+                        "Os usuários podem visualizar todos os serviços cadastrados, porém só podem atualizar/excluir aqueles que eles mesmos cadastraram.",
+                        "Tecnologia:",
+                        [
+                            "PHP",
+                            "Laravel",
+                            "Paginação",
+                            "Upload de Arquivo",
+                            "HTML/Tailwind CSS"
+                        ]
+                    ],
+                    "urlGit": "https://github.com/niltonpaes/laragigs",
+                    "urlLive": "https://laragigs.swtas.com/"
+                },
+                {
+                    "title1": "See What they are Saying - AI (ChatGPT)",
+                    "list1": [
+                        "Este é um site que mostra o resumo de análises de produtos e threads do Twitter.",
+                        "Todo o conteúdo é gerado por meio de trabalhos em PHP, que coletam dados de grandes sites de vendas e threads do Twitter. Após a coleta dos dados, os trabalhos em PHP utilizam a API do ChatGPT para resumir as informações e fornecer insights na forma de 'Prós e Contras'.",
+                        "Infelizmente, o Twitter descontinuou suas APIs gratuitas que permitiam a coleta de seus dados, então o projeto foi cancelado.",
+                        "Tecnologia:",
+                        [
+                            "PHP",
+                            "HTML/Bootstrap CSS",
+                            "API do ChatGPT"
+                        ]
+                    ],
+                    "urlGit": "https://github.com/niltonpaes/see-wtas",
+                    "urlLive": "https://swtas.swtas.com/en/"
+                },
+                {
+                    "title1": "Resume",
+                    "list1": [
+                        "Este é o projeto real em Vue.js/Quasar desta página de currículo.",
+                        "Tecnologia:",
+                        [
+                            "Vue.js",
+                            "Quasar",
+                            "I18n para Internacionalização / Multilíngue"
+                        ]
+                    ],
+                    "urlGit": "https://github.com/niltonpaes/resume_vue_quasar",
+                    "urlLive": "https://resume.swtas.com/"
+                },
+                {
+                    "title1": "Modelo Básico de CRUD em PHP (PHP, MySQL)",
+                    "list1": [
+                        "Destaques:",
+                        [
+                            "Extensão PDO para comunicação com MySQL",
+                            "Bootstrap",
+                            "Paginação",
+                            "Upload de Arquivo",
+                            "MySQL"
+                        ]
+                    ],
+                    "urlGit": "https://github.com/niltonpaes/php_template_crud",
+                    "urlLive": "https://phptemplates.swtas.com/php_template_crud/"
+                },
+                {
+                    "title1": "Modelo de CRUD PHP Orientado a Objetos (PHP, MySQL)",
+                    "list1": [
+                        "Este é um modelo PHP orientado a objetos para operações CRUD básicas.",
+                        "Destaques:",
+                        [
+                            "OOP (Programação Orientada a Objetos)",
+                            "Extensão PDO para comunicação com MySQL",
+                            "Bootstrap",
+                            "Paginação",
+                            "MySQL"
+                        ]
+                    ],
+                    "urlGit": "https://github.com/niltonpaes/php_template_crud_oop",
+                    "urlLive": "https://phptemplates.swtas.com/php_template_crud_oop/"
+                },
+                {
+                    "title1": "Modelo de API Rest em PHP - CRUD (PHP, MySQL)",
+                    "list1": [
+                        "Este é um modelo de API Rest em PHP que oferece operações CRUD.",
+                        "Destaques:",
+                        [
+                            "Extensão PDO para comunicação com MySQL",
+                            "Paginação",
+                            "MySQL",
+                            "JSON"
+                        ]
+                    ],
+                    "urlGit": "https://github.com/niltonpaes/php_template_crud_api",
+                    "urlLive": "https://phptemplates.swtas.com/php_template_crud_api/product/read.php"
+                },
+                {
+                    "title1": "Modelo AJAX para leitura de API Rest (JavaScript, Ajax, Json)",
+                    "list1": [
+                        "Este é um modelo AJAX (HTML/Javascript/jQuery) para operações CRUD básicas via chamadas de API Rest.",
+                        "Destaques:",
+                        [
+                            "Chamadas de API Rest",
+                            "Bootstrap",
+                            "Paginação",
+                            "jQuery para manipular DOM, Arrays, JSON, chamadas Ajax"
+                        ]
+                    ],
+                    "urlGit": "https://github.com/niltonpaes/php_template_crud_api_ajax",
+                    "urlLive": "https://phptemplates.swtas.com/php_template_crud_api_ajax/"
+                }
+            ]
+        }
+
+
+    }
+}
