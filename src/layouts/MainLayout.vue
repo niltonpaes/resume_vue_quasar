@@ -234,7 +234,7 @@ export default defineComponent({
 				r.style.setProperty('--font_size', "17px");
 			}
 			else {
-				r.style.setProperty('--font_size', "19px");
+				r.style.setProperty('--font_size', "18px");
 			}
 
 
@@ -244,6 +244,7 @@ export default defineComponent({
 
 		onMounted(() => {
 			document.title = t("manifest.title");
+			changeLanguage("en-US");
 		});
 
 		return {
