@@ -251,23 +251,6 @@
             "btnLive": "Live",
             "list1": [
                 {
-                    "title1": "Laragigs",
-                    "list1": [
-                        "This is a website developed using PHP/Laravel where users can register, update, and search for gigs. It uses Laravel out-of-the-box authentication and authorization features, so users need to log in to be able to post a gig.",
-                        "Users can view all registered gigs, but they can only update/delete the ones they have registered themselves.",
-                        "Technology:",
-                        [
-                            "PHP",
-                            "Laravel",
-                            "Pagination",
-                            "File Upload",
-                            "HTML/Tailwind CSS"
-                        ]
-                    ],
-                    "urlGit": "https://github.com/niltonpaes/laragigs",
-                    "urlLive": "https://laragigs.swtas.com/"
-                },
-                {
                     "title1": "See What they are Saying - AI (ChatGPT)",
                     "list1": [
                         "This is a website that shows the summary of product reviews and Twitter threads.",
@@ -296,6 +279,23 @@
                     ],
                     "urlGit": "https://github.com/niltonpaes/resume_vue_quasar",
                     "urlLive": "https://niltonpaes-resume.swtas.com/"
+                },
+                {
+                    "title1": "Laragigs",
+                    "list1": [
+                        "This is a website developed using PHP/Laravel where users can register, update, and search for gigs. It uses Laravel out-of-the-box authentication and authorization features, so users need to log in to be able to post a gig.",
+                        "Users can view all registered gigs, but they can only update/delete the ones they have registered themselves.",
+                        "Technology:",
+                        [
+                            "PHP",
+                            "Laravel",
+                            "Pagination",
+                            "File Upload",
+                            "HTML/Tailwind CSS"
+                        ]
+                    ],
+                    "urlGit": "https://github.com/niltonpaes/laragigs",
+                    "urlLive": "https://laragigs.swtas.com/"
                 },
                 {
                     "title1": "Basic PHP CRUD Template (PHP, MySQL)",
