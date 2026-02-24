@@ -1,6 +1,6 @@
 {
     "manifest": {
-        "title": "Nilton Paes - Desenvolvedor full-stack"
+        "title": "Nilton Paes - Desenvolvedor Full-Stack Sênior"
     },
     "ui": {
         "langselection": "Alterar o idioma: "
@@ -11,7 +11,7 @@
             "list1": [
                 {
                     "icon": "fa-solid fa-briefcase",
-                    "text": "Desenvolvedor full-stack com mais de 15 anos de experiência na área de TI."
+                    "text": "Desenvolvedor Full-Stack Sênior (Vue/React + PHP/Laravel) com 15+ anos construindo aplicações web, soluções de dados e automações. Forte experiência em bancos de dados (SQL Server, Oracle, MySQL)."
                 },
                 {
                     "icon": "fa-solid fa-home",
@@ -28,136 +28,86 @@
             ]
         },
         "section2": {
-            "title1": "<strong>Destaque de Habilidades</strong>",
-            "text1": "anos de experiência",
+            "title1": "<strong>Competências principais</strong>",
+            "text1": "",
 
-            "subtitle1": "Bando de dados",
+            "subtitle1": "Banco de dados",
             "list1": [
                 {
-                    "title": "T-SQL",
-                    "years": "10+ years",
-                    "value": 1
+                    "title": "SQL Server / T-SQL e Oracle / PL-SQL (consultas, performance, relatórios)",
+                    "years": "Principal"
                 },
                 {
-                    "title": "PL/SQL",
-                    "years": "10+ years",
-                    "value": 1
+                    "title": "MySQL (modelagem, otimização, integrações)",
+                    "years": "Principal"
                 },
                 {
-                    "title": "MS-SQL Server Admin",
-                    "years": "6 years",
-                    "value": 0.6
+                    "title": "ETL / Data Warehousing (consolidação multi-origem, exportação CSV)",
+                    "years": "Secundário"
                 },
                 {
-                    "title": "Oracle Database Admin",
-                    "years": "2 years",
-                    "value": 0.2
+                    "title": "PL/SQL / Oracle (desenvolvimento e administração)",
+                    "years": "Anterior"
                 },
                 {
-                    "title": "SSIS, SSRS",
-                    "years": "5 years",
-                    "value": 0.5
-                },
-                {
-                    "title": "SSAS",
-                    "years": "1 year",
-                    "value": 0.1
-                },
-                {
-                    "title": "ETL / Data Warehouse",
-                    "years": "6 years",
-                    "value": 0.6
-                },
-                {
-                    "title": "MySQL",
-                    "years": "6 years",
-                    "value": 0.6
+                    "title": "SSIS / SSRS (pipelines de dados, relatórios)",
+                    "years": "Anterior"
                 }
             ],
 
-            "subtitle2": "Desenvolvimento de Aplicações",
+            "subtitle2": "Desenvolvimento Full-Stack",
             "list2": [
                 {
-                    "title": "PHP",
-                    "years": "6 years",
-                    "value": 0.6
+                    "title": "Vue 2/3 + Quasar (biblioteca de componentes, UI interativa, migrações)",
+                    "years": "Principal"
                 },
                 {
-                    "title": "Laravel",
-                    "years": "6 years",
-                    "value": 0.6
+                    "title": "JavaScript / TypeScript",
+                    "years": "Principal"
                 },
                 {
-                    "title": "HTML/CSS",
-                    "years": "6 years",
-                    "value": 0.6
+                    "title": "React",
+                    "years": "Secundário"
                 },
                 {
-                    "title": "Vue.js",
-                    "years": "6 years",
-                    "value": 0.6
+                    "title": "HTML / CSS (frameworks CSS: Tailwind, Bootstrap; UI/componentes Quasar; UI responsiva, design systems)",
+                    "years": "Principal"
                 },
                 {
-                    "title": "Quasar framework",
-                    "years": "1 year",
-                    "value": 0.1
+                    "title": "PHP + Laravel (APIs, jobs em background, templates/componentes Blade, Eloquent ORM, integrações)",
+                    "years": "Principal"
                 },
                 {
-                    "title": "SCORM/LMS",
-                    "years": "4 years",
-                    "value": 0.4
+                    "title": "APIs REST (design, integração, contratos de dados)",
+                    "years": "Principal"
                 },
                 {
-                    "title": "JavaScript",
-                    "years": "6 years",
-                    "value": 0.6
+                    "title": "Integração SCORM / LMS (tracking, persistência, relatórios)",
+                    "years": "Principal"
                 },
                 {
-                    "title": "Bootstrap",
-                    "years": "6 years",
-                    "value": 0.6
+                    "title": "Automação com Node.js (geradores de código, tooling)",
+                    "years": "Secundário"
                 },
                 {
-                    "title": "jQuery",
-                    "years": "2 years",
-                    "value": 0.2
+                    "title": "Google Apps Script (automação de fluxos em Docs/Sheets/Slides)",
+                    "years": "Secundário"
                 },
+                
                 {
-                    "title": "Ajax",
-                    "years": "7 years",
-                    "value": 0.7
-                },
-                {
-                    "title": "XML/XSLT/DTD/XSD and Json",
-                    "years": "7 years",
-                    "value": 0.7
-                },
-                {
-                    "title": "AI - ChatGTP API",
-                    "years": "1 year",
-                    "value": 0.1
+                    "title": "IA - ChatGPT API",
+                    "years": "Secundário"
                 }
             ],
-            "subtitle3": "Outros",
+            "subtitle3": "Ferramentas e plataformas",
             "list3": [
+                "Git / GitHub",
                 "Tableau",
-                "Oracle BI",
-                "Oracle Forms",
-                "Hadoop",
-                "Hive",
-                "HBase",
-                "R",
-                "Linux",
-                "Rest API",
-                "VBA",
-                "Asp Net",
-                "C#",
-                "Java",
-                "MS Project",
-                "GitHub",
-                "Agile",
-                "Visual Fox",
-                "Visual Basic"
+                "Unix/Linux (Ubuntu) — terminal/CLI",
+                "Agile / Scrum",
+                "Administração do Google Workspace",
+                "Hospedagem / DNS / SSL",
+                "Exportação de dados via FTP / SFTP"
             ]
         },
         "section3": {
@@ -172,15 +122,19 @@
             "title1": "<strong>Experiência Profissional</strong>",
             "list1": [
                 {
-                    "title1": "Desenvolvedor full-stack",
-                    "title2": "<strong>Tuesday Afternoon Media (TAM), Toronto, ON</strong>",
+                    "title1": "Desenvolvedor Full-Stack Sênior / Líder Técnico",
+                    "title2": "<strong>TuesdayAfternoon Media (TAM), Toronto, ON</strong>",
                     "text1": "Setembro de 2019 - Presente",
                     "list1": [
-                        "Responsabilidades incluem:",
+                        "Destaques:",
                         [
-                            "Desenvolvimento de Soluções de Aprendizagem e Treinamentos Baseados na Web utilizando Vue.js, Quasar, HTML, CSS, JavaScript, Bootstrap e SCORM/LMS. Concluí com sucesso mais de 50 projetos para empresas renomadas como Citi, TD, Apple, Loblaws, entre outras.",
-                            "Desenvolvimento de API de backend usando PHP/Laravel e MySQL.",
-                            "Design e implementação de painéis e relatórios usando PHP, Laravel e Tableau."
+                            "Desenvolvo treinamentos web compatíveis com SCORM e experiências interativas usando Vue 2/3, Quasar, HTML/CSS e JavaScript; entrego soluções em React quando necessário.",
+                            "Desenvolvo e mantenho o site da empresa (<a class='text-link' href='https://tuesdayafternoon.net/' target='_blank' rel='noopener'>tuesdayafternoon.net</a>) usando React, GSAP e Matter.js para animações e interações.",
+                            "Crio e mantenho boilerplates reutilizáveis em Vue/Quasar e uma biblioteca de componentes (integração com LMS, persistência de dados, utilitários de animação, helpers globais e interações comuns).",
+                            "Conduzi uma modernização em múltiplas fases: migrei um legado em Vue 2 (sem SFC) para Vue 2 com Single-File Components, implementei um pipeline de build com Vue CLI e, depois, migrei para Vue 3 + Quasar CLI — melhorando manutenibilidade, consistência e velocidade de entrega do time.",
+                            "Construo APIs e serviços de dados em PHP/Laravel (MySQL) para fornecer uma camada adicional de dados para os treinamentos além dos dados do LMS/SCORM, incluindo consolidação multi-origem e fluxos estilo ETL (bancos + CSVs legados) com exportações automatizadas (CSV via FTP/SFTP) e dashboards no Tableau.",
+                            "Criei ferramentas de automação, incluindo um gerador de código em Node.js/TypeScript que interpreta storyboards do Google Docs (baseado em metadados) para gerar código Vue a partir de uma biblioteca/esquema de componentes.",
+                            "Atuo com liderança técnica em desenvolvimento e operações de TI (decisões de arquitetura/framework, administração do Google Workspace e coordenação de hosting/infraestrutura)."
                         ]
                     ]
                 },
@@ -189,7 +143,7 @@
                     "title2": "<strong>Destination CEO (Capstone Project at Humber), Toronto, ON</strong>",
                     "text1": "Jan 2019 - Abr 2019",
                     "list1": [
-                        "Colaborei no projeto 'With Gratitude', uma plataforma de leilão online, projetando o banco de dados com MySQL e Oracle Data Modeler, e contribui para o desenvolvimento do site usando PHP e Laravel. Reconhecido na EXPO do Projeto de Conclusão de Curso de TIC da Humber (18 de abril de 2019)."
+                        "Desenvolvi o 'With Gratitude', uma plataforma de leilão online: modelei o banco MySQL (Oracle Data Modeler) e contribui para o desenvolvimento em PHP/Laravel; apresentado na Humber ICT Capstone EXPO (Abr 2019)."
                     ]
                 },
                 {
@@ -197,8 +151,8 @@
                     "title2": "<strong>Itaú Unibanco - Banco, São Paulo, Brasil</strong>",
                     "text1": "Out 2000 - Mai 2016",
                     "list1": [
-                        "Atuei no departamento de Manutenção da divisão de Internet, principalmente como desenvolvedor web. Minhas responsabilidades incluíam desenvolver e manter até 10 aplicações de intranet e 8 websites na internet, destacando o Portal Web Principal e o website de Internet Banking.",
-                        "Colaborei com a equipe de Sistemas de Informação Gerencial (MIS) no departamento de Gestão de Projetos de TI Terceirizados, focando no desenvolvimento de bancos de dados e análise de dados. Minhas tarefas incluíam desenvolver e manter processos ETL, bancos de dados, data warehouses e visualizações de dados."
+                        "Desenvolvedor web na divisão de Internet, dando suporte a aplicações de intranet e sites públicos (portal + Internet Banking).",
+                        "Atuação em banco de dados/análise de dados com MIS: processos ETL, desenvolvimento de bancos de dados e data warehouse/relatórios."
                     ]
                 },
                 {
@@ -246,7 +200,7 @@
         },
 
         "section6": {
-            "title1": "Portfolio - GitHub and Live Aplications",
+            "title1": "Portfólio - GitHub e Aplicações ao Vivo",
             "btnGit": "GitHub",
             "btnLive": "Live",
             "list1": [
@@ -298,65 +252,56 @@
                     "urlLive": "https://niltonpaes-resume.swtas.com/"
                 },
                 {
-                    "title1": "Modelo Básico de CRUD em PHP (PHP, MySQL)",
+                    "title1": "Workopia - PHP",
                     "list1": [
+                        "Projeto prático em PHP: site de vagas de emprego construído do zero em PHP puro (sem frameworks), com uma arquitetura leve inspirada no Laravel.",
+                        "Aborda fundamentos de PHP (variáveis/tipos de dados, arrays/loops, estruturas de controle, funções/escopo, OOP, superglobals) e integração com banco de dados via PDO.",
                         "Destaques:",
                         [
-                            "Extensão PDO para comunicação com MySQL",
-                            "Bootstrap",
-                            "Paginação",
-                            "Upload de Arquivo",
-                            "MySQL"
-                        ]
-                    ],
-                    "urlGit": "https://github.com/niltonpaes/php_template_crud",
-                    "urlLive": "https://phptemplates.swtas.com/php_template_crud/"
-                },
-                {
-                    "title1": "Modelo de CRUD PHP Orientado a Objetos (PHP, MySQL)",
-                    "list1": [
-                        "Este é um modelo PHP orientado a objetos para operações CRUD básicas.",
-                        "Destaques:",
+                            "Router customizado com suporte a métodos HTTP, parâmetros de rota e middleware",
+                            "Separação App/Framework com classes reutilizáveis (Router, Database, Validation, Session)",
+                            "CRUD de vagas com autenticação/autorização e rotas protegidas",
+                            "Busca/filtro por palavras-chave e localização",
+                            "Validação/sanitização e prepared statements com PDO (proteção contra SQL injection)"
+                        ],
+                        "Tecnologia:",
                         [
-                            "OOP (Programação Orientada a Objetos)",
-                            "Extensão PDO para comunicação com MySQL",
-                            "Bootstrap",
-                            "Paginação",
-                            "MySQL"
-                        ]
-                    ],
-                    "urlGit": "https://github.com/niltonpaes/php_template_crud_oop",
-                    "urlLive": "https://phptemplates.swtas.com/php_template_crud_oop/"
-                },
-                {
-                    "title1": "Modelo de API Rest em PHP - CRUD (PHP, MySQL)",
-                    "list1": [
-                        "Este é um modelo de API Rest em PHP que oferece operações CRUD.",
-                        "Destaques:",
-                        [
-                            "Extensão PDO para comunicação com MySQL",
-                            "Paginação",
+                            "PHP (vanilla)",
                             "MySQL",
-                            "JSON"
+                            "PDO",
+                            "HTML/CSS"
                         ]
                     ],
-                    "urlGit": "https://github.com/niltonpaes/php_template_crud_api",
-                    "urlLive": "https://phptemplates.swtas.com/php_template_crud_api/product/read.php"
+                    "urlGit": "https://github.com/niltonpaes/",
+                    "urlLive": "https://workopia-php.swtas.com/"
                 },
                 {
-                    "title1": "Modelo AJAX para leitura de API Rest (JavaScript, Ajax, Json)",
+                    "title1": "Workopia - Laravel",
                     "list1": [
-                        "Este é um modelo AJAX (HTML/Javascript/jQuery) para operações CRUD básicas via chamadas de API Rest.",
+                        "Aplicação real de vagas de emprego construída com Laravel (MVC, routing, middleware).",
                         "Destaques:",
                         [
-                            "Chamadas de API Rest",
-                            "Bootstrap",
-                            "Paginação",
-                            "jQuery para manipular DOM, Arrays, JSON, chamadas Ajax"
+                            "CRUD de vagas com autenticação e políticas de autorização",
+                            "Dashboard do usuário com sistema de favoritos e fluxo de candidatura (upload de currículo)",
+                            "Upload de avatar e perfil do usuário",
+                            "Busca, filtros e paginação",
+                            "Integração com Mapbox (mapas e geocoding)",
+                            "Mailers (Mailtrap) e seeding do banco"
+                        ],
+                        "Tecnologia:",
+                        [
+                            "PHP",
+                            "Laravel",
+                            "Templates/componentes Blade",
+                            "Eloquent ORM + migrations/seeders",
+                            "MySQL",
+                            "Vite + Tailwind CSS",
+                            "Alpine.js",
+                            "Mapbox"
                         ]
                     ],
-                    "urlGit": "https://github.com/niltonpaes/php_template_crud_api_ajax",
-                    "urlLive": "https://phptemplates.swtas.com/php_template_crud_api_ajax/"
+                    "urlGit": "https://github.com/niltonpaes/",
+                    "urlLive": "https://workopia-laravel.swtas.com/"
                 }
             ]
         }

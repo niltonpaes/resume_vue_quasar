@@ -44,6 +44,10 @@
 								<h3 v-html="tm('page1.section2.title1')"></h3>
 							</div>
 
+							<p class="text-grey-7 q-mt-sm q-mb-none" v-if="tm('page1.section2.text1')">
+								{{ tm('page1.section2.text1') }}
+							</p>
+
 
 
 							<div class="row q-col-gutter-md">
@@ -59,14 +63,14 @@
 
 									<q-separator aria-hidden="true" size="20px" color="transparent"></q-separator>
 									<template v-for="(item, index) in tm('page1.section2.list1')" :key="index">
-										<p class="q-mb-xs" v-html="item.title"></p>
-										<q-linear-progress rounded size="20px" :value="( (item.value * 1.25) > 1 ) ? 1 : (item.value * 1.25)" color="secondary" data-aos="zoom-in">
-											<div class="absolute-full flex flex-center">
-												<q-badge color="teal" text-color="white" :label="item.years"></q-badge>
-											</div>
-										</q-linear-progress>
-
-										<q-separator aria-hidden="true" size="10px" color="transparent"></q-separator>
+										<q-item dense class="q-pa-none q-mb-sm">
+											<q-item-section>
+												<span class="text-body1" v-html="item.title"></span>
+											</q-item-section>
+											<q-item-section side data-aos="zoom-in-down">
+												<q-badge :color="skillBadgeColor(item.years)" text-color="white" :label="item.years" />
+											</q-item-section>
+										</q-item>
 									</template>
 								</div>
 
@@ -82,14 +86,14 @@
 
 									<q-separator aria-hidden="true" size="20px" color="transparent"></q-separator>
 									<template v-for="(item, index) in tm('page1.section2.list2')" :key="index">
-										<p class="q-mb-xs" v-html="item.title"></p>
-										<q-linear-progress rounded size="20px" :value="( (item.value * 1.25) > 1 ) ? 1 : (item.value * 1.25)" color="secondary" data-aos="zoom-in">
-											<div class="absolute-full flex flex-center">
-												<q-badge color="teal" text-color="white" :label="item.years"></q-badge>
-											</div>
-										</q-linear-progress>
-
-										<q-separator aria-hidden="true" size="10px" color="transparent"></q-separator>
+										<q-item dense class="q-pa-none q-mb-sm">
+											<q-item-section>
+												<span class="text-body1" v-html="item.title"></span>
+											</q-item-section>
+											<q-item-section side data-aos="zoom-in-down">
+												<q-badge :color="skillBadgeColor(item.years)" text-color="white" :label="item.years" />
+											</q-item-section>
+										</q-item>
 									</template>
 								</div>
 							</div>
@@ -322,6 +326,14 @@ export default defineComponent({
             scrollInfoTop.value = scrollInfoTop.value + info.delta.top * 1.2;
         };
 
+		const skillBadgeColor = (label) => {
+			const normalized = String(label || "").toLowerCase();
+			if (normalized.includes("primary") || normalized.includes("principal")) return "teal";
+			if (normalized.includes("secondary") || normalized.includes("secund")) return "secondary";
+			if (normalized.includes("prior") || normalized.includes("anterior")) return "grey-7";
+			return "grey-7";
+		};
+
         onMounted(() => {
             console.log("***------ PageOne - onMounted ------***");
 
@@ -340,6 +352,8 @@ export default defineComponent({
 
             onScroll,
             scrollInfoTop,
+
+			skillBadgeColor,
 
             store,
             ...useCore(),
