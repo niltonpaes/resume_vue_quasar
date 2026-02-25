@@ -15,7 +15,7 @@
                 },
                 {
                     "icon": "fa-solid fa-home",
-                    "text": "North York/Toronto, ON"
+                    "text": "Toronto, ON"
                 },
                 {
                     "icon": "fa-solid fa-envelope",
@@ -134,7 +134,7 @@
                             "Created automation tooling, including a Node.js/TypeScript code generator that parses Google Docs storyboards (metadata-driven) to generate Vue course code based on a component schema/library.",
                             "Develop and maintain the company website (<a class='text-link' href='https://tuesdayafternoon.net/' target='_blank' rel='noopener'>tuesdayafternoon.net</a>) using React, GSAP, and Matter.js for interactive animation.",
                             "Partner on Storyline builds and add custom JavaScript when projects require functionality beyond standard Storyline features.",
-                            "Own infrastructure and operations for production/web environments, including hosting setup, DNS management, certificates, server administration, cron job automation, hosting-provider migrations, and Google Workspace administration"
+                            "Own infrastructure and operations for production/web environments, including hosting setup, DNS management, certificates, server administration, cron job automation, hosting-provider migrations, and Google Workspace administration."
                         ]
                     ]
                 },
