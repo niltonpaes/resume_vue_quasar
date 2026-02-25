@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://niltonpaes-resume.swtas.com/sitemap.xml

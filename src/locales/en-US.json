@@ -34,7 +34,7 @@
             "subtitle1": "Database",
             "list1": [
                 {
-                    "title": "SQL Server / T-SQL & Oracle / PL-SQL (querying, performance, reporting)",
+                    "title": "SQL Server / T-SQL (querying, performance, reporting)",
                     "years": "Primary"
                 },
                 {
@@ -46,7 +46,7 @@
                     "years": "Secondary"
                 },
                 {
-                    "title": "PL/SQL / Oracle (development & administration)",
+                    "title": "Oracle / PL-SQL (development & administration)",
                     "years": "Prior"
                 },
                 {
@@ -78,10 +78,6 @@
                     "years": "Primary"
                 },
                 {
-                    "title": "REST APIs (design, integration, data contracts)",
-                    "years": "Primary"
-                },
-                {
                     "title": "SCORM / LMS integration (tracking, persistence, reporting)",
                     "years": "Primary"
                 },
@@ -92,6 +88,10 @@
                 {
                     "title": "Google Apps Script (workflow automation for Docs/Sheets/Slides)",
                     "years": "Secondary"
+                },
+                {
+                    "title": "REST APIs (design, integration, data contracts)",
+                    "years": "Primary"
                 },
                 {
                     "title": "AI - ChatGPT API",
@@ -127,13 +127,14 @@
                     "list1": [
                         "Highlights:",
                         [
-                            "Develop SCORM-compliant web-based training and interactive courseware using Vue 2/3, Quasar, HTML/CSS, and JavaScript; deliver React-based solutions when required.",
-                            "Develop and maintain the company website (<a class='text-link' href='https://tuesdayafternoon.net/' target='_blank' rel='noopener'>tuesdayafternoon.net</a>) using React, GSAP, and Matter.js for interactive animation.",
+                            "Build SCORM-compliant web-based learning modules and interactive e-learning experiences using Vue 2/3, React, Quasar, HTML/CSS, and JavaScript.",
                             "Build and maintain reusable Vue/Quasar boilerplates and a component library (LMS integration, data persistence, animation utilities, global helpers, and common interactions).",
-                            "Led a multi-phase modernization: migrated legacy Vue 2 (non-SFC) to Vue 2 Single-File Components, introduced a Vue CLI build pipeline, and later migrated to Vue 3 + Quasar CLI—improving maintainability, consistency, and team delivery speed.",
+                            "Led a multi-phase frontend modernization: Vue 2 (non-SFC) → Vue 2 SFC + Vue CLI → Vue 3 + Quasar CLI, improving maintainability, consistency, and team delivery speed.",
                             "Build PHP/Laravel APIs and backend data services (MySQL) to provide an additional data layer for web-based trainings beyond the LMS/SCORM data, including multi-source consolidation and ETL-style workflows (databases + legacy CSVs) with automated exports (CSV via FTP/SFTP) and Tableau dashboards.",
                             "Created automation tooling, including a Node.js/TypeScript code generator that parses Google Docs storyboards (metadata-driven) to generate Vue course code based on a component schema/library.",
-                            "Provide technical leadership across development and IT operations (framework/architecture choices, Google Workspace administration, and hosting/infrastructure coordination)."
+                            "Develop and maintain the company website (<a class='text-link' href='https://tuesdayafternoon.net/' target='_blank' rel='noopener'>tuesdayafternoon.net</a>) using React, GSAP, and Matter.js for interactive animation.",
+                            "Partner on Storyline builds and add custom JavaScript when projects require functionality beyond standard Storyline features.",
+                            "Own infrastructure and operations for production/web environments, including hosting setup, DNS management, certificates, server administration, cron job automation, hosting-provider migrations, and Google Workspace administration"
                         ]
                     ]
                 },
@@ -254,7 +255,7 @@
                             "HTML/CSS"
                         ]
                     ],
-                    "urlGit": "https://github.com/niltonpaes/",
+                    "urlGit": "https://github.com/niltonpaes/workopia_php",
                     "urlLive": "https://workopia-php.swtas.com/"
                 },
                 {
@@ -282,7 +283,7 @@
                             "Mapbox"
                         ]
                     ],
-                    "urlGit": "https://github.com/niltonpaes/",
+                    "urlGit": "https://github.com/niltonpaes/workopia_laravel",
                     "urlLive": "https://workopia-laravel.swtas.com/"
                 }
             ]

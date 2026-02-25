@@ -209,16 +209,12 @@ export default defineComponent({
 			})
 
 
-			//updates the title reflecting the udpated language
-			document.title = t("manifest.title");
-
-
 			// update the root level font size
 			let r = document.querySelector(':root');
 			if (lang == "ru") {
 				r.style.setProperty('--font_size', "17px");
 			}
-			if (lang == "sk") {
+			else if (lang == "sk") {
 				r.style.setProperty('--font_size', "17px");
 			}
 			else if (lang == "de-DE") {

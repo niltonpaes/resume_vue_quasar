@@ -14,35 +14,35 @@
                     <div class="col-lg-4">
                         <div class="q-pa-lg shadow-3">
 
-							<!-- ---------------------------------------------------------------------------------------- -->
-							<!-- name -->
-							<!-- ---------------------------------------------------------------------------------------- -->
-                            <h1 v-html="tm('page1.section1.title1')"></h1>
-
-
+						<!-- ---------------------------------------------------------------------------------------- -->
+						<!-- name + contact summary -->
+						<!-- ---------------------------------------------------------------------------------------- -->
+						<header>
+							<h1 v-html="tm('page1.section1.title1')"></h1>
 
 							<q-separator aria-hidden="true" size="35px" color="transparent"></q-separator>
-							<!-- ---------------------------------------------------------------------------------------- -->
-							<!-- summary -->
-							<!-- ---------------------------------------------------------------------------------------- -->
-							<template v-for="(item, index) in tm('page1.section1.list1')" :key="index">
-								<div class="row no-wrap">
-									<q-icon class="text-secondary q-mr-md" size="24px" :name="item.icon" />
-									<span v-html="item.text"></span>
-								</div>
-								<q-separator aria-hidden="true" size="15px" color="transparent"></q-separator>
-							</template>
+							<address>
+								<template v-for="(item, index) in tm('page1.section1.list1')" :key="index">
+									<div class="row no-wrap">
+										<q-icon class="text-secondary q-mr-md" size="24px" :name="item.icon" />
+										<span v-html="item.text"></span>
+									</div>
+									<q-separator aria-hidden="true" size="15px" color="transparent"></q-separator>
+								</template>
+							</address>
+						</header>
 
 							
 							
-							<q-separator aria-hidden="true" class="q-my-xl" size="1px" color="grey-4"></q-separator>
-							<!-- ---------------------------------------------------------------------------------------- -->
-							<!-- Highlights of Skills -->
-							<!-- ---------------------------------------------------------------------------------------- -->
-							<div class="row no-wrap">
-								<q-icon class="col-auto text-secondary q-mr-md" size="24px" name="fa-solid fa-asterisk" />
-								<h3 v-html="tm('page1.section2.title1')"></h3>
-							</div>
+						<q-separator aria-hidden="true" class="q-my-xl" size="1px" color="grey-4"></q-separator>
+						<!-- ---------------------------------------------------------------------------------------- -->
+						<!-- Highlights of Skills -->
+						<!-- ---------------------------------------------------------------------------------------- -->
+						<section aria-label="Core Skills">
+						<div class="row no-wrap">
+							<q-icon class="col-auto text-secondary q-mr-md" size="24px" name="fa-solid fa-asterisk" />
+							<h3 v-html="tm('page1.section2.title1')"></h3>
+						</div>
 
 							<p class="text-grey-7 q-mt-sm q-mb-none" v-if="tm('page1.section2.text1')">
 								{{ tm('page1.section2.text1') }}
@@ -116,10 +116,13 @@
 
 
 
-							<q-separator aria-hidden="true" class="q-my-xl" size="1px" color="grey-4"></q-separator>
-							<!-- ---------------------------------------------------------------------------------------- -->
-							<!-- certifications -->
-							<!-- ---------------------------------------------------------------------------------------- -->
+						</section>
+
+						<q-separator aria-hidden="true" class="q-my-xl" size="1px" color="grey-4"></q-separator>
+						<!-- ---------------------------------------------------------------------------------------- -->
+						<!-- certifications -->
+						<!-- ---------------------------------------------------------------------------------------- -->
+						<section aria-label="Certifications">
 							<div class="row no-wrap">
 								<q-icon class="col-auto text-secontady q-mr-md" size="24px" name="fa-solid fa-trophy" />
 								<h4 v-html="tm('page1.section3.title1')"></h4>
@@ -153,6 +156,8 @@
 								</div>
 							</div>
 
+						</section>
+
                         </div>
 
 
@@ -167,7 +172,7 @@
 						<!-- ---------------------------------------------------------------------------------------- -->
 						<!-- Work Experience -->
 						<!-- ---------------------------------------------------------------------------------------- -->
-						<div class="q-pa-lg shadow-3">
+						<section aria-label="Work Experience" class="q-pa-lg shadow-3">
 
 							<div class="row no-wrap q-mb-lg">
 								<q-icon class="col-auto text-secondary q-mr-md" size="24px" name="fa-solid fa-suitcase" />
@@ -175,13 +180,13 @@
 							</div>
 
 							<div v-for="(item, index) in tm('page1.section4.list1')" :key="index" class="row q-px-md-lg">
-								<div class="col-12">
+								<article class="col-12">
 									<h4 v-html="item.title1"></h4>
 									<p v-html="item.title2"></p>
 
 									<div class="row no-wrap q-py-md">
 										<q-icon class="col-auto text-secondary q-mr-md" size="24px" name="fa-solid fa-calendar" />
-										<span class="text-secondary" v-html="item.text1"></span>
+										<time class="text-secondary" v-html="item.text1"></time>
 									</div>
 
 									<ListComponent
@@ -192,43 +197,43 @@
 									/>
 
 									<q-separator v-if="index < tm('page1.section4.list1').length-1" aria-hidden="true" class="q-my-lg" size="1px" color="grey-4"></q-separator>
-								</div>
+								</article>
 							</div>
 
-						</div>
+						</section>
 
 
 
 						<!-- ---------------------------------------------------------------------------------------- -->
 						<!-- Education -->
 						<!-- ---------------------------------------------------------------------------------------- -->
-						<div class="q-mt-md q-pa-lg shadow-3" data-aos="fade-up">
+						<section aria-label="Education" class="q-mt-md q-pa-lg shadow-3" data-aos="fade-up">
 							<div class="row no-wrap q-mb-lg">
 								<q-icon class="col-auto text-secondary q-mr-md" size="24px" name="fa-solid fa-certificate" />
 								<h3 class="q-mr-sm" v-html="tm('page1.section5.title1')"></h3>
 							</div>
 
 							<div v-for="(item, index) in tm('page1.section5.list1')" :key="index" class="row q-px-md-lg">
-								<div class="col-12">
+								<article class="col-12">
 									<h4 v-html="item.title1"></h4>
 									<p v-html="item.title2"></p>
 
 									<div class="row no-wrap q-py-md">
 										<q-icon class="col-auto text-secondary q-mr-md" size="24px" name="fa-solid fa-calendar" />
-										<span class="text-secondary" v-html="item.text1"></span>
+										<time class="text-secondary" v-html="item.text1"></time>
 									</div>
 
 									<q-separator v-if="index < tm('page1.section5.list1').length-1" aria-hidden="true" class="q-my-lg" size="1px" color="grey-4"></q-separator>
-								</div>
+								</article>
 							</div>
-						</div>
+						</section>
 
 
 
 						<!-- ---------------------------------------------------------------------------------------- -->
 						<!-- Portfolio -->
 						<!-- ---------------------------------------------------------------------------------------- -->
-						<div class="q-mt-md q-pa-lg shadow-3" data-aos="fade-up">
+						<section aria-label="Portfolio" class="q-mt-md q-pa-lg shadow-3" data-aos="fade-up">
 							<div class="row no-wrap q-mb-lg">
 								<q-icon class="col-auto text-secondary q-mr-md" size="24px" name="fa-solid fa-desktop" />
 								<h3 class="q-mr-sm" v-html="tm('page1.section6.title1')"></h3>
@@ -264,7 +269,7 @@
 									<q-separator v-if="index < tm('page1.section6.list1').length-1" aria-hidden="true" class="q-my-lg" size="1px" color="grey-4"></q-separator>
 								</div>
 							</div>
-						</div>
+						</section>
 
 
                         <!-- End Right Column -->
@@ -276,10 +281,10 @@
                 <!-- End Page Container -->
             </div>
 
-			<div class="q-pa-lg text-center text-white bg-secondary">
-				<a href="https://www.linkedin.com/in/nilton-paes/" target="_blank"><q-icon class="text-white q-mr-sm" size="35px" name="fa-brands fa-linkedin" /></a>
-				<a href="https://github.com/niltonpaes/" target="_blank"><q-icon class="text-white" size="35px" name="fa-brands fa-github" /></a>
-			</div>
+		<footer class="q-pa-lg text-center text-white bg-secondary">
+			<a href="https://www.linkedin.com/in/nilton-paes/" target="_blank" aria-label="Nilton Paes on LinkedIn"><q-icon class="text-white q-mr-sm" size="35px" name="fa-brands fa-linkedin" /></a>
+			<a href="https://github.com/niltonpaes/" target="_blank" aria-label="Nilton Paes on GitHub"><q-icon class="text-white" size="35px" name="fa-brands fa-github" /></a>
+		</footer>
         </q-page>
     </transition>
 </template>
