@@ -151,8 +151,12 @@
                     "title2": "<strong>Itau Unibanco - Bank, Sao Paulo, Brazil</strong>",
                     "text1": "Oct 2000 - May 2016",
                     "list1": [
-                        "Web developer in the Internet division supporting intranet apps and public websites (portal + Internet Banking).",
-                        "Database/data analyst work with MIS: ETL processes, database development, and warehouse/reporting."
+                        "Worked in the Internet Division (Maintenance department) as a web developer, supporting and enhancing up to 10 intranet applications and 8 public websites, including the main Web Portal and Internet Banking (HTML, CSS, JavaScript/jQuery, PHP).",
+                        "Also supported the MIS team (Outsourced IT Projects Management) as a database developer/data analyst, developing and maintaining ETL processes, databases, data warehouses, and reporting/data visualizations (MS SQL Server, T-SQL, SSIS/SSRS).",
+                        "Built customer-facing web applications such as an Investments Wizard/Simulator (HTML + SVG for charts, CSS/Bootstrap, JavaScript/jQuery, PHP/OOP, MySQL).",
+                        "Contributed features to a Credit Card Administration website (HTML/CSS/JavaScript + PHP), integrating third-party financial REST APIs (JSON) and implementing data manipulation/validation flows.",
+                        "Delivered internal content and reporting solutions, including a custom CMS for the Investor Relations website and a PHP REST API that powered dynamic web reports (AJAX/JSON) fed from the data warehouse.",
+                        "Helped administer MS SQL Server environments for production systems (security/logins/roles, performance tuning, backups/restores, troubleshooting)."
                     ]
                 },
                 {
