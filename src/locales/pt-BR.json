@@ -151,8 +151,15 @@
                     "title2": "<strong>Itaú Unibanco - Banco, São Paulo, Brasil</strong>",
                     "text1": "Out 2000 - Mai 2016",
                     "list1": [
-                        "Desenvolvedor web na divisão de Internet, dando suporte a aplicações de intranet e sites públicos (portal + Internet Banking).",
-                        "Atuação em banco de dados/análise de dados com MIS: processos ETL, desenvolvimento de bancos de dados e data warehouse/relatórios."
+                        "Destaques:",
+                        [
+                            "Atuei na Divisão de Internet (departamento de Manutenção) como desenvolvedor web, dando suporte e evoluindo até 10 aplicações de intranet e 8 sites públicos, incluindo o Portal principal e o Internet Banking (HTML, CSS, JavaScript/jQuery, PHP).",
+                            "Também atuei com a equipe de MIS (Gestão de Projetos de TI Terceirizados) como desenvolvedor de banco de dados/analista de dados, desenvolvendo e mantendo processos ETL, bases de dados, data warehouses e relatórios/visualizações (MS SQL Server, T-SQL, SSIS/SSRS).",
+                            "Desenvolvi aplicações web voltadas ao cliente, como o Investments Wizard/Simulator (HTML + SVG para gráficos, CSS/Bootstrap, JavaScript/jQuery, PHP/OOP, MySQL).",
+                            "Implementei funcionalidades no site de Administração de Cartões de Crédito (HTML/CSS/JavaScript + PHP), integrando APIs REST de terceiros do setor financeiro (JSON) e implementando fluxos de manipulação/validação de dados.",
+                            "Entreguei soluções internas de conteúdo e reporting, incluindo um CMS customizado para o site de Relações com Investidores e uma API REST em PHP que alimentava relatórios web dinâmicos (AJAX/JSON) a partir do data warehouse.",
+                            "Apoiei a administração de ambientes MS SQL Server para sistemas em produção (segurança/logins/roles, performance tuning, backup/restore, troubleshooting)."
+                        ]
                     ]
                 },
                 {
