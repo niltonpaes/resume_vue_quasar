@@ -78,6 +78,10 @@
                     "years": "Primary"
                 },
                 {
+                    "title": "Python, FastAPI, SQLAlchemy, Alembic, Pydantic",
+                    "years": "Secondary"
+                },
+                {
                     "title": "SCORM / LMS integration (tracking, persistence, reporting)",
                     "years": "Primary"
                 },

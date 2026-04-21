@@ -63,7 +63,7 @@
 
 									<q-separator aria-hidden="true" size="20px" color="transparent"></q-separator>
 									<template v-for="(item, index) in tm('page1.section2.list1')" :key="index">
-										<q-item dense class="q-pa-none q-mb-sm">
+										<q-item dense class="q-pa-none q-mb-md">
 											<q-item-section>
 												<span class="text-body1" v-html="item.title"></span>
 											</q-item-section>
@@ -86,7 +86,7 @@
 
 									<q-separator aria-hidden="true" size="20px" color="transparent"></q-separator>
 									<template v-for="(item, index) in tm('page1.section2.list2')" :key="index">
-										<q-item dense class="q-pa-none q-mb-sm">
+										<q-item dense class="q-pa-none q-mb-md">
 											<q-item-section>
 												<span class="text-body1" v-html="item.title"></span>
 											</q-item-section>
