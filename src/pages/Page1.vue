@@ -261,7 +261,7 @@
 								</div>
 
 								<div class="text-center col-12 col-md-4 col-lg-4 col-xl-auto q-mt-sm q-mt-md-none q-pl-md-md">
-									<q-btn class="q-mb-xs q-mr-xs" icon="fa-brands fa-github" :href="item.urlGit" target="_blank" :label="t('page1.section6.btnGit')" no-caps rounded outline padding="sm lg" color="secondary"></q-btn>
+									<q-btn class="q-mb-xs q-mr-xs" icon="fa-brands fa-github" :href="item.urlGit" :disable="!item.urlGit" target="_blank" :label="t('page1.section6.btnGit')" no-caps rounded outline padding="sm lg" color="secondary"></q-btn>
 									<q-btn class="q-mb-xs" icon="fa-solid fa-globe" :href="item.urlLive" target="_blank" :label="t('page1.section6.btnLive')" no-caps rounded outline padding="sm lg" color="secondary"></q-btn>
 								</div>
 

@@ -62,7 +62,7 @@
                     "years": "Principal"
                 },
                 {
-                    "title": "JavaScript / TypeScript",
+                    "title": "JavaScript",
                     "years": "Principal"
                 },
                 {
@@ -212,29 +212,12 @@
             "btnLive": "Live",
             "list1": [
                 {
-                    "title1": "Laragigs",
-                    "list1": [
-                        "Este é um site desenvolvido usando PHP/Laravel, onde os usuários podem se cadastrar, atualizar e buscar por serviços. Ele utiliza as características padrão de autenticação e autorização do Laravel, o que significa que os usuários precisam fazer login para poder publicar um serviço.",
-                        "Os usuários podem visualizar todos os serviços cadastrados, porém só podem atualizar/excluir aqueles que eles mesmos cadastraram.",
-                        "Tecnologia:",
-                        [
-                            "PHP",
-                            "Laravel",
-                            "Paginação",
-                            "Upload de Arquivo",
-                            "HTML/Tailwind CSS"
-                        ]
-                    ],
-                    "urlGit": "https://github.com/niltonpaes/laragigs",
-                    "urlLive": "https://laragigs.swtas.com/"
-                },
-                {
                     "title1": "See What they are Saying - AI (ChatGPT)",
                     "list1": [
                         "Este é um site que mostra o resumo de análises de produtos e threads do Twitter.",
                         "Todo o conteúdo é gerado por meio de trabalhos em PHP, que coletam dados de grandes sites de vendas e threads do Twitter. Após a coleta dos dados, os trabalhos em PHP utilizam a API do ChatGPT para resumir as informações e fornecer insights na forma de 'Prós e Contras'.",
                         "Infelizmente, o Twitter descontinuou suas APIs gratuitas que permitiam a coleta de seus dados, então o projeto foi cancelado.",
-                        "Tecnologia:",
+                        "Tech Stack:",
                         [
                             "PHP",
                             "HTML/Bootstrap CSS",
@@ -248,7 +231,7 @@
                     "title1": "Resume",
                     "list1": [
                         "Este é o projeto real em Vue.js/Quasar desta página de currículo.",
-                        "Tecnologia:",
+                        "Tech Stack:",
                         [
                             "Vue.js",
                             "Quasar",
@@ -257,6 +240,33 @@
                     ],
                     "urlGit": "https://github.com/niltonpaes/resume_vue_quasar",
                     "urlLive": "https://niltonpaes-resume.swtas.com/"
+                },
+                {
+                    "title1": "FileShare",
+                    "list1": [
+                        "FileShare e uma aplicação web full-stack para enviar, organizar e compartilhar arquivos com segurança entre usuários. Ela combina autenticação, acesso baseado em papéis, tópicos de discussão, notificações por e-mail e resumos de mensagens com IA em um fluxo bem estruturado com React + FastAPI.",
+                        "Destaques:",
+                        [
+                            "Autenticação segura de usuários com JWT armazenado em cookies httpOnly",
+                            "Upload, download, edição e exclusão de arquivos com permissões baseadas no proprietário",
+                            "Compartilhamento de arquivos entre usuários com controle de acesso",
+                            "Tópicos de discussão em cada arquivo compartilhado para colaboração",
+                            "Resumos gerados por IA das conversas sobre os arquivos",
+                            "Notificações por e-mail quando um arquivo é compartilhado",
+                            "Armazenamento local em desenvolvimento com suporte a AWS S3 para produção",
+                            "Deploy com configuração pronta para Railway no frontend e backend"
+                        ],
+                        "Tech Stack:",
+                        [
+                            "<strong>Frontend:</strong> React, Vite, React Router, TanStack Query, Tailwind CSS",
+                            "<strong>Backend:</strong> FastAPI, SQLAlchemy, Alembic, Pydantic",
+                            "<strong>Autenticação e Segurança:</strong> JWT, bcrypt, cookies httpOnly",
+                            "<strong>Armazenamento e Integrações:</strong> AWS S3, Resend, Groq API",
+                            "<strong>Banco de Dados e Infra:</strong> MySQL via PyMySQL, Railway"
+                        ]
+                    ],
+                    "urlGit": null,
+                    "urlLive": "https://frontend-production-ecd66.up.railway.app/"
                 },
                 {
                     "title1": "Workopia - PHP",
@@ -271,7 +281,7 @@
                             "Busca/filtro por palavras-chave e localização",
                             "Validação/sanitização e prepared statements com PDO (proteção contra SQL injection)"
                         ],
-                        "Tecnologia:",
+                        "Tech Stack:",
                         [
                             "PHP (vanilla)",
                             "MySQL",
@@ -293,9 +303,10 @@
                             "Upload de avatar e perfil do usuário",
                             "Busca, filtros e paginação",
                             "Integração com Mapbox (mapas e geocoding)",
-                            "Mailers (Mailtrap) e seeding do banco"
+                            "Notificações por e-mail",
+                            "Seed do banco de dados"
                         ],
-                        "Tecnologia:",
+                        "Tech Stack:",
                         [
                             "PHP",
                             "Laravel",

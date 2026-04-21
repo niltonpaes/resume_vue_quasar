@@ -11,7 +11,7 @@
             "list1": [
                 {
                     "icon": "fa-solid fa-briefcase",
-                    "text": "Senior Full-Stack Developer (Vue/React + PHP/Laravel) with 15+ years building web applications, data solutions, and automation. Strong database background (SQL Server, Oracle, MySQL)."
+                    "text": "Senior Full-Stack Developer (Vue, React, PHP, Laravel, Python) with 15+ years building web applications, data solutions, and automation. Strong database background (SQL Server, Oracle, MySQL)."
                 },
                 {
                     "icon": "fa-solid fa-home",
@@ -62,7 +62,7 @@
                     "years": "Primary"
                 },
                 {
-                    "title": "JavaScript / TypeScript",
+                    "title": "JavaScript",
                     "years": "Primary"
                 },
                 {
@@ -217,7 +217,7 @@
                         "This is a website that shows the summary of product reviews and Twitter threads.",
                         "All the content is generated through PHP jobs, which scrape data from large sales sites and Twitter threads. After gathering the data the PHP jobs use ChatGPT API to summarize the data and provide insights in the form of 'Pros and Cons'.",
                         "Unfortunately, Twitter has discontinued their free APIs that allowed scraping of its data, so the project got canceled.",
-                        "Technology:",
+                        "Tech Stack:",
                         [
                             "PHP",
                             "HTML/Bootstrap CSS",
@@ -231,7 +231,7 @@
                     "title1": "Resume",
                     "list1": [
                         "This is the Vue.js/Quasar project for this resume page.",
-                        "Technology:",
+                        "Tech Stack:",
                         [
                             "Vue.js",
                             "Quasar",
@@ -240,6 +240,33 @@
                     ],
                     "urlGit": "https://github.com/niltonpaes/resume_vue_quasar",
                     "urlLive": "https://niltonpaes-resume.swtas.com/"
+                },
+                {
+                    "title1": "FileShare",
+                    "list1": [
+                        "FileShare is a full-stack web app for uploading, organizing, and securely sharing files with other users. It combines authentication, role-based access, discussion threads, email notifications, and AI-powered message summaries in a clean React + FastAPI workflow.",
+                        "Highlights:",
+                        [
+                            "Secure user authentication with JWT stored in httpOnly cookies",
+                            "File upload, download, editing, and deletion with owner-based permissions",
+                            "File sharing between users with controlled access",
+                            "Discussion threads on each shared file for collaboration",
+                            "AI-generated summaries of file conversations",
+                            "Email notifications when a file is shared",
+                            "Local storage in development with AWS S3 support for production deployment",
+                            "Deployed with Railway-ready frontend and backend setup"
+                        ],
+                        "Tech Stack:",
+                        [
+                            "<strong>Frontend:</strong> React, Vite, React Router, TanStack Query, Tailwind CSS",
+                            "<strong>Backend:</strong> FastAPI, SQLAlchemy, Alembic, Pydantic",
+                            "<strong>Auth & Security:</strong> JWT, bcrypt, httpOnly cookies",
+                            "<strong>Storage & Integrations:</strong> AWS S3, Resend, Groq API",
+                            "<strong>Database & Infra:</strong> MySQL via PyMySQL, Railway"
+                        ]
+                    ],
+                    "urlGit": null,
+                    "urlLive": "https://frontend-production-ecd66.up.railway.app/"
                 },
                 {
                     "title1": "Workopia - PHP",
@@ -254,7 +281,7 @@
                             "Search/filter by keywords and location",
                             "Validation/sanitization and PDO prepared statements (SQL injection protection)"
                         ],
-                        "Technology:",
+                        "Tech Stack:",
                         [
                             "PHP (vanilla)",
                             "MySQL",
@@ -276,9 +303,10 @@
                             "Profile avatar upload and user profiles",
                             "Search, filtering, and pagination",
                             "Mapbox maps + geocoding integration",
-                            "Mailers and database seeding"
+                            "Email notifications",
+                            "Database seeding"
                         ],
-                        "Technology:",
+                        "Tech Stack:",
                         [
                             "PHP",
                             "Laravel",
