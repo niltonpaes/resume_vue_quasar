@@ -11,7 +11,7 @@
             "list1": [
                 {
                     "icon": "fa-solid fa-briefcase",
-                    "text": "Desenvolvedor Full-Stack Sênior (Vue/React + PHP/Laravel) com 15+ anos construindo aplicações web, soluções de dados e automações. Forte experiência em bancos de dados (SQL Server, Oracle, MySQL)."
+                    "text": "Desenvolvedor Full-Stack Sênior com mais de 15 anos criando aplicações web, soluções de dados e automações usando Vue, React, PHP/Laravel e Python/FastAPI. Forte experiência com bancos de dados SQL Server, Oracle e MySQL."
                 },
                 {
                     "icon": "fa-solid fa-home",
@@ -42,7 +42,7 @@
                     "years": "Principal"
                 },
                 {
-                    "title": "ETL / Data Warehousing (consolidação multi-origem, exportação CSV)",
+                    "title": "ETL / Data Warehousing (dados de múltiplas origens, exportações CSV)",
                     "years": "Secundário"
                 },
                 {
@@ -50,7 +50,7 @@
                     "years": "Anterior"
                 },
                 {
-                    "title": "SSIS / SSRS (pipelines de dados, relatórios)",
+                    "title": "SSIS / SSRS (pipelines, relatórios)",
                     "years": "Anterior"
                 }
             ],
@@ -58,7 +58,7 @@
             "subtitle2": "Desenvolvimento Full-Stack",
             "list2": [
                 {
-                    "title": "Vue 2/3 + Quasar (biblioteca de componentes, UI interativa, migrações)",
+                    "title": "Vue.js 2/3 + Quasar (bibliotecas de componentes, UI, migrações)",
                     "years": "Principal"
                 },
                 {
@@ -66,27 +66,31 @@
                     "years": "Principal"
                 },
                 {
-                    "title": "React",
+                    "title": "React.js",
                     "years": "Secundário"
                 },
                 {
-                    "title": "HTML / CSS (frameworks CSS: Tailwind, Bootstrap; UI/componentes Quasar; UI responsiva, design systems)",
+                    "title": "HTML / CSS (Tailwind, Bootstrap, UI responsiva, design systems)",
                     "years": "Principal"
                 },
                 {
-                    "title": "PHP + Laravel (APIs, jobs em background, templates/componentes Blade, Eloquent ORM, integrações)",
+                    "title": "PHP + Laravel (APIs, jobs, Blade, Eloquent, integrações)",
                     "years": "Principal"
                 },
                 {
-                    "title": "Integração SCORM / LMS (tracking, persistência, relatórios)",
-                    "years": "Principal"
-                },
-                {
-                    "title": "Automação com Node.js (geradores de código, tooling)",
+                    "title": "Python, FastAPI, SQLAlchemy, Alembic, Pydantic",
                     "years": "Secundário"
                 },
                 {
-                    "title": "Google Apps Script (automação de fluxos em Docs/Sheets/Slides)",
+                    "title": "Integração SCORM / LMS (rastreamento, persistência, relatórios)",
+                    "years": "Principal"
+                },
+                {
+                    "title": "Automação com Node.js (geração de código, ferramentas)",
+                    "years": "Secundário"
+                },
+                {
+                    "title": "Google Apps Script (automação no Docs/Sheets/Slides)",
                     "years": "Secundário"
                 },
                 {
@@ -94,7 +98,7 @@
                     "years": "Principal"
                 },
                 {
-                    "title": "IA - ChatGPT API",
+                    "title": "Integrações com IA (APIs OpenAI, Claude e Groq)",
                     "years": "Secundário"
                 }
             ],
@@ -106,15 +110,17 @@
                 "Agile / Scrum",
                 "Administração do Google Workspace",
                 "Hospedagem / DNS / SSL",
-                "Exportação de dados via FTP / SFTP"
+                "Exportações de dados via FTP / SFTP",
+                "Zapier",
+                "Cursor / VS Code"
             ]
         },
         "section3": {
             "title1": "Certificações",
             "text1": "Microsoft Certified Professional - Querying Microsoft SQL Server 2012.",
-            "text2": "Certification Number:",
+            "text2": "Número da certificação:",
             "text3": "F824-1702",
-            "text4": "Oct 2016"
+            "text4": "Out 2016"
         },
 
         "section4": {
@@ -127,14 +133,16 @@
                     "list1": [
                         "Destaques:",
                         [
-                            "Desenvolvo módulos de aprendizagem compatíveis com SCORM e experiências de e-learning interativas usando Vue 2/3, React, Quasar, HTML/CSS e JavaScript.",
-                            "Crio e mantenho boilerplates reutilizáveis em Vue/Quasar e uma biblioteca de componentes (integração com LMS, persistência de dados, utilitários de animação, helpers globais e interações comuns).",
-                            "Liderei uma modernização do frontend em múltiplas fases: Vue 2 (sem SFC) → Vue 2 SFC + Vue CLI → Vue 3 + Quasar CLI, melhorando manutenibilidade, consistência e velocidade de entrega do time.",
-                            "Construo APIs e serviços de dados em PHP/Laravel (MySQL) para fornecer uma camada adicional de dados para os treinamentos além dos dados do LMS/SCORM, incluindo consolidação multi-origem e fluxos estilo ETL (bancos + CSVs legados) com exportações automatizadas (CSV via FTP/SFTP) e dashboards no Tableau.",
-                            "Criei ferramentas de automação, incluindo um gerador de código em Node.js/TypeScript que interpreta storyboards do Google Docs (baseado em metadados) para gerar código Vue a partir de uma biblioteca/esquema de componentes.",
-                            "Desenvolvo e mantenho o site da empresa (<a class='text-link' href='https://tuesdayafternoon.net/' target='_blank' rel='noopener'>tuesdayafternoon.net</a>) usando React, GSAP e Matter.js para animações e interações.",
-                            "Apoio builds no Articulate Storyline e adiciono JavaScript customizado quando o projeto exige funcionalidades além dos recursos padrão do Storyline.",
-                            "Sou responsável pela infraestrutura e operações de ambientes web/produção, incluindo configuração de hosting, gestão de DNS, certificados (SSL/TLS), administração de servidores, automação de cron jobs, migrações entre provedores de hospedagem e administração do Google Workspace."
+                            "Desenvolvo módulos de e-learning compatíveis com SCORM e experiências web interativas usando Vue.js, React.js, Quasar, HTML/CSS e JavaScript.",
+                            "Mantenho boilerplates reutilizáveis em Vue/Quasar e uma biblioteca compartilhada de componentes para integração com LMS e elementos e interações comuns de UI.",
+                            "Liderei uma modernização do frontend em múltiplas fases, de Vue 2 legado para Vue 3 + Quasar CLI, melhorando manutenibilidade, consistência e velocidade de entrega.",
+                            "Desenvolvo e mantenho o site da empresa (<a class='text-link' href='https://tuesdayafternoon.net/' target='_blank' rel='noopener'>tuesdayafternoon.net</a>) usando React, GSAP e Matter.js para animações interativas.",
+                            "Atuo em parceria em builds no Storyline e Rise, adicionando código customizado em React/JavaScript quando os projetos exigem funcionalidades além dos recursos padrão.",
+                            "Desenvolvo ferramentas administrativas com React, Python e FastAPI para apoiar operações internas e fluxos de conteúdo.",
+                            "Desenvolvo APIs em PHP/Laravel e serviços de dados em MySQL para analytics de treinamento, consolidação de múltiplas fontes, exportações automatizadas de CSV e dashboards no Tableau.",
+                            "Crio ferramentas de automação com Google Apps Script e Node.js para agilizar fluxos de trabalho, por exemplo, um aplicativo gerador de código que transforma storyboards no Google Docs em código Vue.js.",
+                            "Crio automações de fluxo com Zapier, integrando Slack, Google Workspace e scripts em Python para tarefas como criar canais no Slack, gerar documentos e configurar pastas e arquivos.",
+                            "Gerencio a infraestrutura e as operações diárias de plataformas, incluindo questões com provedores de hospedagem, DNS, certificados, administração de servidores, cron jobs, migrações, Google Workspace e administração do Moodle LMS."
                         ]
                     ]
                 },
@@ -143,7 +151,7 @@
                     "title2": "<strong>Destination CEO (Capstone Project at Humber), Toronto, ON</strong>",
                     "text1": "Jan 2019 - Abr 2019",
                     "list1": [
-                        "Desenvolvi o 'With Gratitude', uma plataforma de leilão online: modelei o banco MySQL (Oracle Data Modeler) e contribui para o desenvolvimento em PHP/Laravel; apresentado na Humber ICT Capstone EXPO (Abr 2019)."
+                        "Desenvolvi o 'With Gratitude', uma plataforma de leilão online; projetei o banco de dados MySQL e contribuí para o desenvolvimento em PHP/Laravel. O projeto foi apresentado na Humber ICT Capstone EXPO (Abr 2019)."
                     ]
                 },
                 {
@@ -153,12 +161,10 @@
                     "list1": [
                         "Destaques:",
                         [
-                            "Atuei na Divisão de Internet (departamento de Manutenção) como desenvolvedor web, dando suporte e evoluindo até 10 aplicações de intranet e 8 sites públicos, incluindo o Portal principal e o Internet Banking (HTML, CSS, JavaScript/jQuery, PHP).",
-                            "Também atuei com a equipe de MIS (Gestão de Projetos de TI Terceirizados) como desenvolvedor de banco de dados/analista de dados, desenvolvendo e mantendo processos ETL, bases de dados, data warehouses e relatórios/visualizações (MS SQL Server, T-SQL, SSIS/SSRS).",
-                            "Desenvolvi aplicações web voltadas ao cliente, como o Investments Wizard/Simulator (HTML + SVG para gráficos, CSS/Bootstrap, JavaScript/jQuery, PHP/OOP, MySQL).",
-                            "Implementei funcionalidades no site de Administração de Cartões de Crédito (HTML/CSS/JavaScript + PHP), integrando APIs REST de terceiros do setor financeiro (JSON) e implementando fluxos de manipulação/validação de dados.",
-                            "Entreguei soluções internas de conteúdo e reporting, incluindo um CMS customizado para o site de Relações com Investidores e uma API REST em PHP que alimentava relatórios web dinâmicos (AJAX/JSON) a partir do data warehouse.",
-                            "Apoiei a administração de ambientes MS SQL Server para sistemas em produção (segurança/logins/roles, performance tuning, backup/restore, troubleshooting)."
+                            "Desenvolvi e mantive um portfólio de 10 aplicações de intranet e 8 sites públicos, incluindo o portal principal e a plataforma de Internet Banking.",
+                            "Desenvolvi e mantive processos de ETL, bancos de dados, data warehouses e soluções de relatórios com SQL Server, T-SQL, SSIS e SSRS.",
+                            "Criei um CMS interno customizado e ferramentas de relatórios, incluindo uma API REST em PHP que alimentava relatórios web dinâmicos a partir do data warehouse.",
+                            "Ajudei na administração de ambientes SQL Server em produção, incluindo segurança, ajuste de performance, backup/restore e troubleshooting."
                         ]
                     ]
                 },
@@ -167,8 +173,7 @@
                     "title2": "<strong>Projeto de TI - Consultoria de TI, São Paulo, Brasil</strong>",
                     "text1": "Jan 1996 - Dez 1999",
                     "list1": [
-                        "Desenvolvi e mantive a aplicação de gerenciamento de vendas e controle de inventário para uma editora (Cia das Letras), utilizando SQL (T-SQL), DTS/SSIS e Visual Basic.",
-                        "Desenvolvi e mantive o Relatório de Inspeção e Painel de Controle de pneus de paisagismo Goodyear, utilizando SQL (T-SQL), DTS/SSIS e Visual FoxPro."
+                        "Desenvolvi e mantive aplicações de negócios para clientes como Cia das Letras (editora) e Goodyear, usando SQL, DTS/SSIS, Visual Basic e Visual FoxPro."
                     ]
                 },
                 {
@@ -176,7 +181,7 @@
                     "title2": "<strong>Brasilassist - Empresa de Call Center, São Paulo, Brasil</strong>",
                     "text1": "Jan 1995 - Dez 1995",
                     "list1": [
-                        "Desenvolvi e mantive a aplicação de Call Center utilizando SQL (T-SQL) e Visual FoxPro."
+                        "Desenvolvi e mantive uma aplicação de call center usando SQL e Visual FoxPro."
                     ]
                 },
                 {
@@ -184,7 +189,7 @@
                     "title2": "<strong>Finasa - Banco, São Paulo, Brasil</strong>",
                     "text1": "Jan 1994 - Dez 1994",
                     "list1": [
-                        "Desenvolvi e mantive a primeira aplicação de Home Banking do banco FINASA utilizando Visual Basic."
+                        "Desenvolvi e mantive a primeira aplicação de home banking do banco FINASA usando Visual Basic."
                     ]
                 }
             ]
@@ -195,12 +200,12 @@
             "list1": [
                 {
                     "title1": "Humber College, Toronto, ON",
-                    "title2": "<strong>Information Technology Solutions Program, Postgraduate</strong>",
-                    "text1": "Sep 2017 - Apr 2019 "
+                    "title2": "<strong>Programa de Soluções em Tecnologia da Informação, Pós-graduação</strong>",
+                    "text1": "Set 2017 - Abr 2019 "
                 },
                 {
-                    "title1": "PUC - Pontificia Universidade Catolica University, Sao Paulo, Brazil",
-                    "title2": "<strong>Computer Science, Bachelor’s degree</strong>",
+                    "title1": "PUC - Pontifícia Universidade Católica, São Paulo, Brasil",
+                    "title2": "<strong>Ciência da Computação, Bacharelado</strong>",
                     "text1": "1992 - 1996"
                 }
             ]
@@ -209,14 +214,13 @@
         "section6": {
             "title1": "Portfólio - GitHub e Aplicações ao Vivo",
             "btnGit": "GitHub",
-            "btnLive": "Live",
+            "btnLive": "Ao vivo",
             "list1": [
                 {
-                    "title1": "See What they are Saying - AI (ChatGPT)",
+                    "title1": "See What they are Saying - IA (API do ChatGPT)",
                     "list1": [
-                        "Este é um site que mostra o resumo de análises de produtos e threads do Twitter.",
-                        "Todo o conteúdo é gerado por meio de trabalhos em PHP, que coletam dados de grandes sites de vendas e threads do Twitter. Após a coleta dos dados, os trabalhos em PHP utilizam a API do ChatGPT para resumir as informações e fornecer insights na forma de 'Prós e Contras'.",
-                        "Infelizmente, o Twitter descontinuou suas APIs gratuitas que permitiam a coleta de seus dados, então o projeto foi cancelado.",
+                        "Site que resumia avaliações de produtos e threads do Twitter usando jobs automatizados em PHP e a API do ChatGPT.",
+                        "O projeto foi descontinuado depois que o Twitter encerrou o acesso gratuito à API.",
                         "Tech Stack:",
                         [
                             "PHP",
@@ -230,12 +234,12 @@
                 {
                     "title1": "Resume",
                     "list1": [
-                        "Este é o projeto real em Vue.js/Quasar desta página de currículo.",
+                        "Projeto em Vue.js/Quasar deste site de currículo.",
                         "Tech Stack:",
                         [
                             "Vue.js",
                             "Quasar",
-                            "I18n para Internacionalização / Multilíngue"
+                            "I18n para internacionalização / multilíngue"
                         ]
                     ],
                     "urlGit": "https://github.com/niltonpaes/resume_vue_quasar",
@@ -244,17 +248,15 @@
                 {
                     "title1": "FileShare",
                     "list1": [
-                        "FileShare e uma aplicação web full-stack para enviar, organizar e compartilhar arquivos com segurança entre usuários. Ela combina autenticação, acesso baseado em papéis, tópicos de discussão, notificações por e-mail e resumos de mensagens com IA em um fluxo bem estruturado com React + FastAPI.",
+                        "Aplicação full-stack de compartilhamento de arquivos com autenticação segura, threads de colaboração, notificações por e-mail e resumos gerados por IA.",
                         "Destaques:",
                         [
-                            "Autenticação segura de usuários com JWT armazenado em cookies httpOnly",
-                            "Upload, download, edição e exclusão de arquivos com permissões baseadas no proprietário",
-                            "Compartilhamento de arquivos entre usuários com controle de acesso",
-                            "Tópicos de discussão em cada arquivo compartilhado para colaboração",
-                            "Resumos gerados por IA das conversas sobre os arquivos",
-                            "Notificações por e-mail quando um arquivo é compartilhado",
-                            "Armazenamento local em desenvolvimento com suporte a AWS S3 para produção",
-                            "Deploy com configuração pronta para Railway no frontend e backend"
+                            "Autenticação JWT com cookies httpOnly",
+                            "Upload, edição, exclusão e compartilhamento de arquivos com permissões baseadas no proprietário",
+                            "Threads de discussão em arquivos compartilhados",
+                            "Resumos de conversas gerados por IA usando a API da Groq",
+                            "Notificações por e-mail e armazenamento preparado para AWS S3",
+                            "Deploy do frontend e backend pronto para Railway"
                         ],
                         "Tech Stack:",
                         [
@@ -265,14 +267,13 @@
                             "<strong>Banco de Dados e Infra:</strong> MySQL via PyMySQL, Railway"
                         ]
                     ],
-                    "urlGit": null,
+                    "urlGit": "https://github.com/niltonpaes/react_python",
                     "urlLive": "https://frontend-production-ecd66.up.railway.app/"
                 },
                 {
                     "title1": "Workopia - PHP",
                     "list1": [
-                        "Projeto prático em PHP: site de vagas de emprego construído do zero em PHP puro (sem frameworks), com uma arquitetura leve inspirada no Laravel.",
-                        "Aborda fundamentos de PHP (variáveis/tipos de dados, arrays/loops, estruturas de controle, funções/escopo, OOP, superglobals) e integração com banco de dados via PDO.",
+                        "Site de vagas construído do zero em PHP puro com uma arquitetura leve inspirada no Laravel.",
                         "Destaques:",
                         [
                             "Router customizado com suporte a métodos HTTP, parâmetros de rota e middleware",
@@ -295,7 +296,7 @@
                 {
                     "title1": "Workopia - Laravel",
                     "list1": [
-                        "Aplicação real de vagas de emprego construída com Laravel (MVC, routing, middleware).",
+                        "Aplicação de vagas construída com Laravel.",
                         "Destaques:",
                         [
                             "CRUD de vagas com autenticação e políticas de autorização",
