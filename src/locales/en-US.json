@@ -271,60 +271,63 @@
                     "urlLive": "https://frontend-production-ecd66.up.railway.app/"
                 },
                 {
-                    "title1": "Workopia - PHP",
+                    "title1": "Jobscape - PHP",
                     "list1": [
-                        "Job listing website built from scratch in vanilla PHP with a lightweight Laravel-style architecture.",
+                        "Job listings app built from scratch in <strong>vanilla PHP</strong> with a custom <strong>MVC</strong> stack and <strong>Laravel-style</strong> routing, middleware, and <strong>App / Framework</strong> separation.",
                         "Highlights:",
                         [
-                            "Custom router supporting HTTP methods, route parameters, and middleware",
-                            "App/Framework separation with reusable core classes (Router, Database, Validation, Session)",
-                            "Job listings CRUD with authentication/authorization and protected routes",
-                            "Search/filter by keywords and location",
-                            "Validation/sanitization and PDO prepared statements (SQL injection protection)"
+                            "Custom <strong>router</strong>: HTTP verbs, <strong>{id}</strong>-style route params, middleware (<strong>auth</strong>, <strong>guest</strong>), <strong>POST _method</strong> override for PUT/DELETE-style updates",
+                            "<strong>Framework</strong> layer: Router, Database (<strong>PDO</strong>), Session, Validation, <strong>Authorization</strong> (ownership checks on listing CRUD)",
+                            "<strong>Auth</strong>: registration/login, <strong>password hashing</strong>, session-based access; <strong>protected</strong> create/edit/delete routes",
+                            "<strong>Search</strong>: keyword + location filtering",
+                            "<strong>Security</strong>: validation/sanitization, <strong>PDO prepared statements</strong>, <strong>XSS-aware</strong> output in templates",
+                            "<strong>Composer</strong> <strong>PSR-4</strong> autoload for Framework and App namespaces"
                         ],
                         "Tech Stack:",
                         [
-                            "PHP (vanilla)",
-                            "MySQL",
-                            "PDO",
-                            "HTML/CSS"
+                            "<strong>PHP</strong> (vanilla)",
+                            "<strong>MySQL</strong>",
+                            "<strong>PDO</strong>",
+                            "<strong>Tailwind CSS</strong>",
+                            "<strong>Alpine.js</strong>",
+                            "<strong>Composer</strong>",
+                            "<strong>Node.js</strong> / <strong>npm</strong> (CSS build only)"
                         ]
                     ],
-                    "urlGit": "https://github.com/niltonpaes/workopia_php",
-                    "urlLive": "https://workopia-php.swtas.com/"
+                    "urlGit": "https://github.com/niltonpaes/jobscape_php",
+                    "urlLive": "https://jobscape-php.swtas.com/"
                 },
                 {
-                    "title1": "Workopia - Laravel",
+                    "title1": "Jobscape - Laravel",
                     "list1": [
-                        "Job listing application built with Laravel.",
+                        "Job listings application built with <strong>Laravel 11</strong> (<strong>PHP 8.2+</strong>): full-stack job board with CRUD, auth, applications, bookmarks, maps, and email.",
                         "Highlights:",
                         [
-                            "Job listings CRUD with authentication and authorization policies",
-                            "User dashboard with bookmarking and online application flow (resume upload)",
-                            "Profile avatar upload and user profiles",
-                            "Search, filtering, and pagination",
-                            "Mapbox maps + geocoding integration",
-                            "Email notifications",
-                            "Database seeding"
+                            "Job listings <strong>CRUD</strong> with session auth, <strong>middleware</strong>, and <strong>JobPolicy</strong> (owner-only update/delete; <strong>@can</strong> in Blade)",
+                            "<strong>User dashboard</strong>: profile, owned listings, applicants, bookmarked jobs, and <strong>paginated</strong> listings",
+                            "<strong>Online applications</strong> with <strong>resume upload</strong>; <strong>Laravel Mail</strong> (<strong>JobApplied</strong> mailable) for employer notifications",
+                            "<strong>Profile</strong> updates and <strong>avatar upload</strong> (storage + public link)",
+                            "<strong>Search</strong>, filtering, and <strong>pagination</strong>",
+                            "<strong>Mapbox GL JS</strong> on job detail with <strong>GET /geocode</strong> proxy to <strong>Mapbox Forward Geocoding API</strong>",
+                            "<strong>Migrations</strong>, model <strong>factories</strong>, and <strong>DatabaseSeeder</strong> for sample data"
                         ],
                         "Tech Stack:",
                         [
-                            "PHP",
-                            "Laravel",
-                            "Blade templates/components",
-                            "Eloquent ORM + migrations/seeders",
-                            "MySQL",
-                            "Vite + Tailwind CSS",
-                            "Alpine.js",
-                            "Mapbox"
+                            "<strong>PHP</strong> 8.2+",
+                            "<strong>Laravel</strong> 11",
+                            "<strong>Blade</strong> (layouts + <strong>x-*</strong> components)",
+                            "<strong>Eloquent ORM</strong>, migrations, seeders, factories",
+                            "<strong>MySQL</strong> (or <strong>SQLite</strong> via .env)",
+                            "<strong>Vite 5</strong> + <strong>Tailwind CSS</strong> 3",
+                            "<strong>Alpine.js</strong>",
+                            "<strong>Mapbox GL JS</strong>",
+                            "<strong>Laravel Mail</strong>"
                         ]
                     ],
-                    "urlGit": "https://github.com/niltonpaes/workopia_laravel",
-                    "urlLive": "https://workopia-laravel.swtas.com/"
+                    "urlGit": "https://github.com/niltonpaes/jobscape_laravel",
+                    "urlLive": "https://jobscape-laravel.swtas.com/"
                 }
             ]
         }
-
-
     }
 }
